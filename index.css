@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "CursedTimerUlil-Aznm";
+  src: url("fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: #EEEEEE;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.guest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.square1 {
+  height: 120px;
+  width: 155px;
+  background-color: #080001;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square2 {
+  height: 120px;
+  width: 155px;
+  background-color: #080001;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#score1 {
+    font-family: CursedTimerUlil-Aznm;
+    color: #F94F6D;
+    font-size: 70px;
+}
+
+#score2 {
+    font-family: CursedTimerUlil-Aznm;
+    color: #F94F6D;
+    font-size: 70px;
+}
+
+.container-home {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    border-radius: 5%;
+}
+
+.add1, .add2, .add3 {
+  height: 40px;
+  width: 40px;
+  border-radius: 10%;
+  border: #9AABD8 solid 2px;
+
+}
+
+.container-guest {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+.add4, .add5, .add6 {
+  height: 40px;
+  width: 40px;
+  border-radius: 10%;
+  border: #9AABD8 solid 2px;
+}
+
+
+.num {
+  font-family: CursedTimerUlil-Aznm;
+  font-size: 20px;
+  color: #9AABD8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
